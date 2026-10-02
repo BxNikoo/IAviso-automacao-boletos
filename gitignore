@@ -1,0 +1,8 @@
+# Segredos e credenciais - NUNCA subir
+.env
+*.env
+secrets.*
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
