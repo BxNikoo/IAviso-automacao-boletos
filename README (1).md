@@ -10,8 +10,6 @@ Boletos chegam por e-mail e passam despercebidos. A ideia foi criar um aviso aut
 
 ## Como funciona
 
-![Fluxograma da automação no Make](docs/fluxograma.png)
-
 O fluxo foi montado no [Make](https://www.make.com/) e tem 5 módulos:
 
 1. **Gmail – Watch emails:** verifica a caixa de entrada a cada 15 minutos, filtrando por assunto (`boleto`, `vencimento`, `2ª via`, `segunda via`).
